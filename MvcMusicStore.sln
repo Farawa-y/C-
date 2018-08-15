@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2018
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMusicStore", "MvcMusicStore\MvcMusicStore.csproj", "{0AB359B9-97AF-433D-A5A2-B0FF2ADB5841}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMusicStore", "MvcMusicSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMusicStore.Tests", "MvcMusicStore.Tests\MvcMusicStore.Tests.csproj", "{311A171D-3571-4453-B099-1624259058C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{617F505E-627A-439F-A2A3-9FF40B385ECB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnPoint", "ConsoleApp1\LearnPoint.csproj", "{617F505E-627A-439F-A2A3-9FF40B385ECB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDelegate", "ConsoleDelegate\ConsoleDelegate.csproj", "{27DC9D27-1AEA-4E6B-B1D7-BA190965F98E}"
 EndProject

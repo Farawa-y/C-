@@ -12,7 +12,6 @@ namespace ConsoleDelegate
         static void Main(string[] args)
         {
             Heater.Heater heater=new Heater.Heater();
-            heater.boiled += (new Alarm().BoilAlarm);
             heater.boiled += (new Display().BoilDisplay);
             heater.BoilWater();
             Console.ReadKey();
