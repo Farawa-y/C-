@@ -4,36 +4,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.paixu
+namespace LearnPoint.Class1
 {
     class maopao
     {
-        List<int> list = new List<int>();
+
+        public List<int> list = new List<int>();
         
         public maopao(int num)
         {
             for(int i = 0; i <= num; i++)
             {
-
-                list.Add(new Random().Next());
+                list.Add(new Random(100-i).Next(50));
             }
         }
 
-        public void MaopaoFun()
+        public  List<int> MaopaoFun()
         {
-            for (int i = 0; i < (list.Count-1)*list.Count/2; i++)
+            for (int i = 0; i < list.Count; i++)
             {
-                for(int j = i; j <list.Count-i-1; j++)
+                for(int j = 0; j <list.Count-i-1; j++)
                 {
                     if(list[j] > list[j + 1])
                     {
                         int temp;
-                        temp = j;
+                        temp = list[j];
                         list[j] = list[j + 1];
                         list[j + 1] = temp;
                     }    
                 }
             }
+            return list;
         }         
     }
 }
